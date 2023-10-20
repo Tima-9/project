@@ -4,10 +4,10 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QVBo
 from PyQt5.QtGui import QPixmap
 
 memes = [
-    {"name": "Meme1", "category": "Category1", "image_path": "memes/img.jpg"},
-    {"name": "Meme2", "category": "Category1", "image_path": "memes/img.png"},
-    {"name": "Meme3", "category": "Category2", "image_path": "memes/даун 1000%.png"},
-    {"name": "Meme4", "category": "Category2", "image_path": "memes/img2.jfif"},
+    {"name": "Meme1", "category": "Category1", "image_path": "img.jpg"},
+    {"name": "Meme2", "category": "Category1", "image_path": "img.png"},
+    {"name": "Meme3", "category": "Category2", "image_path": "даун 1000%.png"},
+    {"name": "Meme4", "category": "Category2", "image_path": "img2.jfif"},  # /memes
 ]
 
 class RandomMemeApp(QMainWindow):
